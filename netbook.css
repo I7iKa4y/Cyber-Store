@@ -31,6 +31,11 @@ body{
     margin: auto;
    
 }
+.menu_pages{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
 .menu{
     margin: 5px auto;
        
