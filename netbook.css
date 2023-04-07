@@ -1,6 +1,6 @@
 body{
 
-    display: inline-flex;
+    display: flex;
 }
 .wrap{
  max-width: 960px;
