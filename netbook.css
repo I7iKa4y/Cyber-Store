@@ -32,13 +32,19 @@ body{
    
 }
 .menu_pages{
-    position: absolute;
-    top: 10px;
-    right: 10px;
+    display: flex;
+    top: 100px;
+    right: 100px;
+    display: flex;
+
 }
+.menu_pages_id{
+    margin: auto;
+
+}
+
 .menu{
     margin: 5px auto;
-       
 }
 .menu img{
     width: 150px;
@@ -78,14 +84,10 @@ button{
 }
 .icon_contact{
     position: absolute;
-    left: 10px;
-    top: 10px;
+    left: 5px;
+    top: 5px;
 }
 .icon{
-    width: 25px;
-    height: 25px;
+    width: 10px;
+    height: 10px;
 }
-
-
-
-
