@@ -1,7 +1,9 @@
 body{
-    display: flex;
+
+    display: inline-flexbox;
 }
 .wrap{
+    width: calc(100%-960px);
  max-width: 960px;
  margin: auto;
 }
@@ -13,11 +15,12 @@ body{
 }
 .title{
     display: flex;
-    padding: 30px;
+    padding-bottom: 10px;
 }
 .title_name{
     margin: auto;
     border-bottom: 2px solid black;
+    letter-spacing: 3px;
 }
 .name{
     display: flex;
@@ -35,11 +38,10 @@ body{
     display: flex;
     top: 100px;
     right: 100px;
-    display: flex;
-
 }
 .menu_pages_id{
     margin: auto;
+
 }
 
 .menu{
@@ -81,9 +83,14 @@ button{
 .button_form{
     margin: auto;
 }
-.icon_contact{
+.icon_left{
     position: absolute;
     left: 5px;
+    top: 5px;
+}
+.icon_right{
+    position: absolute;
+    right: 40px;
     top: 5px;
 }
 .icon{
