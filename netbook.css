@@ -1,0 +1,88 @@
+body{
+    display: flex;
+}
+.wrap{
+ max-width: 960px;
+ margin: auto;
+}
+.header{
+    margin:auto;
+    position:relative;
+    width: inherit;
+
+}
+.title{
+    display: flex;
+    padding: 30px;
+}
+.title_name{
+    margin: auto;
+    border-bottom: 2px solid black;
+}
+.name{
+    display: flex;
+}
+.page_name{
+    margin: auto;
+}
+.main_wrap{
+    max-width: 1420px; 
+    display: flex; 
+    margin: auto;
+   
+}
+.menu{
+    margin: 5px auto;
+       
+}
+.menu img{
+    width: 250px;
+    height: 300px;
+}
+.menu_info{
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+}
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shop_item{
+    padding: 10px;
+   
+    margin: auto;
+}
+.button{
+    display: flex;
+    padding: 5px;
+}
+.order_button{
+    margin: auto;
+    display: flex;
+}
+.button_form{
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+.tb1{    
+    left: 10px;      
+    display: flex;
+    bottom: 5px;
+    position: fixed;
+}
+.tb1 td{
+    z-index: 999;
+    padding-bottom: 5px;    
+}
+.tb1 td button{
+    background-color: inherit;
+    border: none;
+}
